@@ -13,6 +13,9 @@ Tailwind Flowbite
 
 Bu komut, Flowbite uygulamanızı React'in üretim ortamına dağıtacaktır.
 
+### `npm install -D tailwindcss`
+
+Bu komut, Tailwind uygulamanızı React'in üretim ortamına dağıtacaktır.
 
 ### `npx tailwindcss init`
 
