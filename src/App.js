@@ -3,6 +3,7 @@ import Navabar from './components/Navabar/Navabar';
 import Sidemenu from './components/Sidemenu/Sidemenu';
 import Docliste from './components/Docliste/Docliste';
 import Linkliste from './components/Linkliste/Linkliste';
+import Mockdata from './components/Mockdata/Mockdata';
 import Vsekme from './components/Vsekme/Vsekme';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
 
       <Sidemenu />
 
+      <Mockdata />
+      
       <Docliste />
 
       <Vsekme />
