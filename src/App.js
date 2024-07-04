@@ -10,8 +10,6 @@ function App() {
       <Navabar />
 
       <Mockdata />
-      
-      <Fonts />
 
     </div>
   );
