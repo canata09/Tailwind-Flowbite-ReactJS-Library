@@ -8,7 +8,9 @@ function App() {
     <div className="App">
 
       <Navabar />
-
+      <div className="container">
+        <p className="font-poppins">İçerik 1</p>
+      </div>
       <Mockdata />
 
     </div>
