@@ -8,6 +8,21 @@ module.exports = {
       gridTemplateColumns: {
         'layout': '5fr 1fr',
       },
+      borderColor: {
+        'custom-blue': '#1e40af',
+        'custom-green': '#10b981',
+        'custom-gray': '#e5e7eb',
+      },
+      borderRadius: {
+        'custom-lg': '0.5rem',
+      },
+      boxShadow: {
+        'custom-light': '0 2px 4px rgba(0, 0, 0, 0.1)',
+        'custom-dark': '0 2px 4px rgba(0, 0, 0, 0.6)',
+      },
+      zIndex: {
+        '60': '60',
+      },
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
