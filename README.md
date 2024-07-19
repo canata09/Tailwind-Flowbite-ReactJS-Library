@@ -60,3 +60,34 @@ module.exports = {
 };
 
 ```
+
+ ## Flowbite Danger
+
+- [kbd](https://flowbite.com/docs/components/kbd/)
+- [badge](https://flowbite.com/docs/components/badge/)
+- [avatar](https://flowbite.com/docs/components/avatar/)
+- [indicators](https://flowbite.com/docs/components/indicators/)
+- [chat-bubble](https://flowbite.com/docs/components/chat-bubble/)
+- [alerts](https://flowbite.com/docs/components/alerts/)
+- [popover](https://flowbite.com/docs/components/popover/)
+- [toast](https://flowbite.com/docs/components/toast/)
+- [tooltips](https://flowbite.com/docs/components/tooltips/)
+- [banner](https://flowbite.com/docs/components/banner/)
+- [modal](https://flowbite.com/docs/components/modal/)
+
+ ## Flowbite
+
+- [HR](https://flowbite.com/docs/typography/hr/)
+- [Text](https://flowbite.com/docs/typography/text/)
+- [unordered List](https://flowbite.com/docs/typography/lists/)
+- [List group with Links](https://flowbite.com/docs/components/list-group/)
+- [Link text](https://flowbite.com/docs/typography/links/)
+- [Typografi](https://flowbite.com/docs/components/typography/)
+- [Toast](https://flowbite.com/docs/components/toast/)
+- [Card](https://flowbite.com/docs/components/card/)
+- [Header Search](https://flowbite.com/docs/forms/search-input/)
+
+ ## Flowbite Flex
+
+- [tabs](https://flowbite.com/docs/components/tabs/)
+
