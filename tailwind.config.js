@@ -4,8 +4,11 @@ const flowbite = require("flowbite-react/tailwind");
 module.exports = {
   content: ["./src/**/*.{html,js}", flowbite.content()],
   theme: {
-
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        'layout': '5fr 1fr',
+      },
+    },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
       sans: ['Graphik', 'sans-serif'],
