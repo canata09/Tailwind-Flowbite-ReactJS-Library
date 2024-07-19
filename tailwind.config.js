@@ -4,6 +4,7 @@ const flowbite = require("flowbite-react/tailwind");
 module.exports = {
   content: ["./src/**/*.{html,js}", flowbite.content()],
   theme: {
+
     extend: {},
     fontFamily: {
       Poppins: ["Poppins", "sans-serif"],
@@ -43,6 +44,15 @@ module.exports = {
       72: "18rem",
       80: "20rem",
       96: "24rem",
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+      },
     },
   },
   plugins: [flowbite.plugin()],
