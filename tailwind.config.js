@@ -7,7 +7,9 @@ module.exports = {
 
     extend: {},
     fontFamily: {
-      Poppins: ["Poppins", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
     },
     colors: {
       customblue: {
