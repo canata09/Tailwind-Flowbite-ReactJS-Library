@@ -71,36 +71,69 @@ function App() {
         </div>
         <div>
           <div class="space-y-3">
-            <Mockdata />
+
+
+            <div class="container mx-auto">
+              <div>
+                <div class="flex flex-row items-start mb-3 me-4 items-center md:items-start flex-col border-b border-gray-200 ">
+                  <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:pe-4 md:me-4 md:mb-0 dark:border-gray-600">
+                    <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                  </a>
+                  <p class="flex items-center text-left text-sm font-normal text-gray-500 dark:text-gray-400 ">Build websites even faster with components on top of Tailwind CSS</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="container mx-auto">
+              <div>
+                <div class="flex border-b border-gray-200 ">
+
+                  <div class="md:w-2/3 mb-0 mb-0 block border-b border-gray-200 ">
+                    <Mockdata />
+                  </div>
+
+                  <div class="md:w-1/3 mb-0 block border-b border-gray-200 ">
+                    <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:pe-4 md:me-4 md:mb-0 dark:border-gray-600">
+                      <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                    </a>
+                    <p class="flex items-center text-left text-sm font-normal text-gray-500 dark:text-gray-400 ">Build websites even faster with components on top of Tailwind CSS</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
           </div>
         </div>
         <div>
 
-            <div id="marketing-banner" tabindex="-1" class="relative flex flex-col justify-between w-[calc(100%-2rem)] p-4 -translate-x-1/2 bg-white border border-gray-100 rounded-lg shadow-sm lg:max-w-7xl left-1/2 top-6 dark:bg-gray-700 dark:border-gray-600">
-              <div class="flex items-start mb-3 me-4 items-center md:items-start flex-col border-b border-gray-200 ">
-                <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:mb-0 dark:border-gray-600">
-                  <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                </a>
-                <p class="flex items-center text-left text-sm font-normal text-gray-500 dark:text-gray-400 ">Build websites even faster with components on top of Tailwind CSS</p>
-              </div>
-              <div class="flex items-start mb-3 mt-3 me-4 items-center md:items-start flex-col md:mb-0 ">
-                <p class="flex items-center text-left text-sm font-normal text-gray-500 dark:text-gray-400">Tailwind CSS</p>
-                <a href="#" class="px-5 py-2 me-2 text-xs font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Up</a>
-              </div>
+          <div id="marketing-banner" tabindex="-1" class="relative flex flex-col justify-between w-[calc(100%-2rem)] p-4 -translate-x-1/2 bg-white border border-gray-100 rounded-lg shadow-sm lg:max-w-7xl left-1/2 top-6 dark:bg-gray-700 dark:border-gray-600">
+            <div class="flex items-start mb-3 me-4 items-center md:items-start flex-col border-b border-gray-200 ">
+              <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:mb-0 dark:border-gray-600">
+                <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+              </a>
+              <p class="flex items-center text-left text-sm font-normal text-gray-500 dark:text-gray-400 ">Build websites even faster with components on top of Tailwind CSS</p>
             </div>
+            <div class="flex items-start mb-3 mt-3 me-4 items-center md:items-start flex-col md:mb-0 ">
+              <p class="flex items-center text-left text-sm font-normal text-gray-500 dark:text-gray-400">Tailwind CSS</p>
+              <a href="#" class="px-5 py-2 me-2 text-xs font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Up</a>
+            </div>
+          </div>
 
 
-            <div id="marketing-banner" tabindex="-1" class="relative flex flex-row w-[calc(100%-2rem)] p-4 -translate-x-1/2 bg-white border border-gray-100 rounded-lg shadow-sm lg:max-w-7xl left-1/2 top-6 dark:bg-gray-700 dark:border-gray-600">
-              <div class="flex items-start mb-3 me-4 md:items-center flex-row md:mb-0 ">
-                <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:border-e md:mb-0 dark:border-gray-600">
-                  <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 me-2" alt="Flowbite Logo" />
-                </a>
-              </div>
-              <div class="flex flex-col ">
-                <span class="text-left text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                <p class="flex items-center text-left text-sm font-normal text-gray-500 dark:text-gray-400">Build websites even faster with components on top of Tailwind CSS</p>
-              </div>
+          <div id="marketing-banner" tabindex="-1" class="relative flex flex-row w-[calc(100%-2rem)] p-4 -translate-x-1/2 bg-white border border-gray-100 rounded-lg shadow-sm lg:max-w-7xl left-1/2 top-6 dark:bg-gray-700 dark:border-gray-600">
+            <div class="flex items-start mb-3 me-4 md:items-center flex-row md:mb-0 ">
+              <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:border-e md:mb-0 dark:border-gray-600">
+                <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 me-2" alt="Flowbite Logo" />
+              </a>
             </div>
+            <div class="flex flex-col ">
+              <span class="text-left text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+              <p class="flex items-center text-left text-sm font-normal text-gray-500 dark:text-gray-400">Build websites even faster with components on top of Tailwind CSS</p>
+            </div>
+          </div>
 
 
         </div>
