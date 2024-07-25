@@ -1,14 +1,6 @@
 
-const altbirStili = {
-    background: 'none',
-};
 
-const altikiStili = {
-    width: '260px',
-    background: 'none',
-};
-
-const Footer = () => {
+const Footdoc = () => {
     return (
 
         <div className="footdoc">
@@ -95,44 +87,10 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="component" >
 
-                <div className="inner-div">
-                    <a href="#" className="eighty-percent">
-                        <div className="taxonomy" >
-                            <img src="logo.png" style={altikiStili} alt="" />
-                        </div>
-                        <div className="popular">Doğru eğitimi sizler için bulalım</div>
-                    </a>
-                    <a href="#" className="twenty-percent">
-                        <button></button>
-                    </a>
-                </div>
-
-            </div>
-
-            <div className="component"  >
-                <div className="container">
-
-
-
-                </div>
-
-
-            </div>
-
-            <div className="component">
-
-                <div className="outer-div">
-                    <a href="#" className="ten-percent">
-                        <div className="story">Copyright © 2024. All Rights Reserved | Dijital Dershanem</div>
-                    </a>
-                </div>
-
-            </div>
         </div>
 
     );
 }
 
-export default Footer;
+export default Footdoc;
