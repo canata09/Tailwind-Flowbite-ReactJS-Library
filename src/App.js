@@ -1,7 +1,7 @@
 import './App.css';
 import Navabar from './components/Navabar/Navabar';
 import Mockdata from './components/Mockdata/Mockdata';
-import Footer from './components/Footer';
+import Footdoc from './components/Footdoc';
 
 const right = {
   root: {
@@ -139,7 +139,7 @@ function App() {
         </div>
       </div>
 
-      <Footer />
+      <Footdoc />
     </div>
   );
 }
