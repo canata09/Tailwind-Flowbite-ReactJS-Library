@@ -30,56 +30,6 @@ function App() {
     <div className="App">
 
 
-      <div class="container mx-auto">
-        <div class="p-4 bg-white border border-gray-100 rounded-lg shadow-sm lg:max-w-7xl dark:bg-gray-700 dark:border-gray-600">
-          <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:pe-4 md:me-4 md:mb-0 dark:border-gray-600">
-            <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-          </a>
-        </div>
-      </div>
-      
-      <div class="container-fluid mx-auto">
-        <div class="p-4 bg-white border border-gray-100 rounded-lg shadow-sm lg:max-w-7xl dark:bg-gray-700 dark:border-gray-600">
-
-          <div class="space-y-3 flex flex-row">
-
-            <div class="p-4 md:w-1/4">
-              <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:pe-4 md:me-4 md:mb-0 dark:border-gray-600">
-                <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-              </a>
-            </div>
-
-            <div class="p-4 md:w-1/4">
-              <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:pe-4 md:me-4 md:mb-0 dark:border-gray-600">
-                <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-              </a>
-            </div>
-
-            <div class="p-4 md:w-2/4">
-              <div class="w-full grid grid-cols-2">
-                <div>
-                  <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:pe-4 md:me-4 md:mb-0 dark:border-gray-600">
-                    <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200 md:pe-4 md:me-4 md:mb-0 dark:border-gray-600">
-                    <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-
-
-
-
-
-
 
       <Navabar />
       <div class="grid grid-cols-layout">
