@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.frame {
+  width: 85%;
+  float: left;
+  height: 100%;
+  z-index: 1000;
+  background-color: #f9fafb;
+  position: relative;
+  border: 1px solid #E5E7EB;
+}
+
+/* Left doc */
+.leftdoc {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-color: #f9fafb;
+}
+
+/* Footer */
+.footdoc {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-color: #f9fafb;
+}
