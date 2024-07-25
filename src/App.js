@@ -1,6 +1,8 @@
 import './App.css';
 import Navabar from './components/Navabar/Navabar';
 import Mockdata from './components/Mockdata/Mockdata';
+import Frame from './components/Frame/Frame';
+import Leftdoc from './components/Leftdoc/Leftdoc';
 import Footdoc from './components/Footdoc';
 
 const right = {
@@ -139,6 +141,8 @@ function App() {
         </div>
       </div>
 
+      <Frame />
+      <Leftdoc />
       <Footdoc />
     </div>
   );
