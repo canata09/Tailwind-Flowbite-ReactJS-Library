@@ -1,6 +1,7 @@
 import '../../App.css';
 import Navabar from '../Navabar/Navabar';
 import Mockdata from '../Mockdata/Mockdata';
+import Docliste from '../Docliste/Docliste';
 import Fonts from '../Fonts/Fonts';
 
 const right = {
