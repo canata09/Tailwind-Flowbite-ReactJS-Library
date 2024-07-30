@@ -32,7 +32,7 @@ function App() {
 
 
       <Navabar />
-      <div class="grid grid-cols-layout">
+      <div class="grid grid-cols-effect">
         <div>
           <div className={right.root.base}>
             <ul className={right.root.list}>
