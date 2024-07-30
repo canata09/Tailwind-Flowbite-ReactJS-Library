@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        'layout': '1fr 5fr 1fr',
+        'layout': '5fr 1fr',
+        'effect': '1fr 5fr 1fr',
       },
       borderColor: {
         'custom-blue': '#1e40af',
